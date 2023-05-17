@@ -1,0 +1,151 @@
+
+body{
+    background-color:#ce061d ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: auto auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+body{
+    border: 2px solid #9c0315;
+    border-radius: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    color: #fff7f7;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    margin-top: 2px;
+
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:#ff79b8;
+    transition: 0.3s all;
+}
+
+li.button1{
+    border: 4px solid transparent;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+li.button1:hover{
+    background-color: #f88575;
+    color: white;
+}
+
+li.button2{
+    border: 4px solid transparent;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+li.button2:hover{
+    background-color: #f88575;
+    color: white;
+}
+
+li.button3{
+    border: 4px solid transparent;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+li.button3:hover{
+    background-color: #f88575;
+    color: white;
+}
+
+li.button4{
+    border: 4px solid transparent;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+li.button4:hover{
+    background-color: #f88575;
+    color: white;
+}
+
+
+
+h1{
+    font-weight: 200;
+    display: inline-block;
+    margin-top: 15px;
+    font-family: 'Righteous', cursive;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+}
+
+h2{
+    font-size: 50px;
+    line-height: 10px;
+    font-family: 'Merriweather', serif;
+    color:#fff7f7;
+    font-weight: bold;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 620px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #f88575;
+    color: rgba(255, 255, 255, 0.87);
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
