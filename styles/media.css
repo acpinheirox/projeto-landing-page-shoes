@@ -1,4 +1,4 @@
-@media screen and (max-width: 660px){
+@media screen and (max-width: 640px){
 
     header{
         flex-direction: column;
@@ -18,7 +18,7 @@
     }
 
     img{
-        display: none;
+    display: none;
 
     }
 
